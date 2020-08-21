@@ -1,0 +1,44 @@
+{
+  "name": "@tiger/v-table",
+  "version": "0.1.6-beta",
+  "description": "",
+  "main": "lib/index.js",
+  "typings": "types/index.d.ts",
+  "files": [
+    "lib",
+    "src",
+    "types"
+  ],
+  "scripts": {
+    "docs:dev": "vuepress dev examples",
+    "docs:build": "vuepress build examples",
+    "bootstrap": "npm publish"
+  },
+  "author": "",
+  "license": "ISC",
+  "resolutions": {
+    "watchpack": "1.6.1"
+  },
+  "dependencies": {
+    "xlsx": "^0.16.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-plugin-import": "^1.13.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-regenerator-runtime": "^6.5.0",
+    "element-ui": "^2.13.2",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "vuepress": "^1.5.0",
+    "vuepress-plugin-demo-block": "^0.7.2",
+    "vuepress-plugin-demo-code": "^0.5.0",
+    "vuepress-plugin-playground": "^2.0.0",
+    "vuepress-plugin-vue-demo": "^1.0.15",
+    "watchpack": "1.6.1"
+  }
+}
